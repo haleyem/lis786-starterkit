@@ -1,6 +1,6 @@
 ---
-title: Words
+title: Glossary
 layout: page
-permalink: /words
+permalink: /glossary
 ---
-There is a word I'm looking for like word bank or definitions or dictonary but not any of those. 
+Defining terms, etc
