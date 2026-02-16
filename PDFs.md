@@ -1,5 +1,5 @@
 ---
-title: PDFs/Downloads
+title: PDFs & Downloads
 layout: page
 permalink: /pdfs
 ---
