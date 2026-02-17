@@ -3,7 +3,7 @@ title: About
 layout: page
 permalink: /about
 ---
-A libguide for free, open to all online resources on varied feminist politics and history.
+A libguide for free, open to all online resources on varied feminist politics and history.\
 **Navigation**\
     - [By Era](#)\
     - [By Philosophy](#)\
