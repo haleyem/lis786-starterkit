@@ -10,4 +10,5 @@ A libguide for free, open to all online resources on varied feminist politics an
     - [Notable Figures](#)
 ### Content
 Marxist feminism...
+![A black and white photo of a banner reading Free Angela Davis](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Boston_1970_protest_against_the_Vietnam_War.jpg/500px-Boston_1970_protest_against_the_Vietnam_War.jpg "From Wikipedia, an image of a protest to free Angela Davis from prison")
 <!--Does this work the same in markdown? We'll see. I don't want this page to actually be listed in the upper navigation bar. I think-->
