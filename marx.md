@@ -4,4 +4,4 @@ layout: page
 permalink: /marxfem
 ---
 {% include short-marx.html %}
-{% inclide pic-marx.html %}
+{% include pic-marx.html %}
