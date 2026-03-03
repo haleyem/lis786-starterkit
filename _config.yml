@@ -9,4 +9,4 @@ defaults:
   - scope:
       type: "theories"
     values:
-      layout: theory
+      layout: theory_item
