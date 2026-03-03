@@ -27,9 +27,12 @@ kind of life wiki citations but on different pages. I'm also interested in taggi
 </nav>
 <div>
     <h2>words and such</h2>
-    <h3>{% theory.title %}</h3>
-    <p>{% theory.content %}</p>
-    <p>Part of {% theory.category %}</p>
+    {% for theory in site.theories %}
+    <h3>{{ theory.title }}</h3>
+    <p><img src="{{theory.image}}" alt="Cartoon of a scale with Lady Justice weighing more and a group of men weighing less"></p>
+    <p>{{ theory.content }}</p>
+    <p>Part of {{ theory.category }}</p>
+    {$ endof %}
 </div>
 <div class="body">
     <h3>Content</h3>
