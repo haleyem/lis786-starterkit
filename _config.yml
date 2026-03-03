@@ -1,12 +1,12 @@
 title: Open Access Feminist Resources
 theme: minima
 collections:
-  collection:
+  theories:
     output: true
 
 
 defaults:
   - scope:
-      type: "collection"
+      type: "theories"
     values:
-      layout: collection_item
+      layout: theory
