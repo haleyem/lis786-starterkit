@@ -2,4 +2,5 @@
 title: Radical Feminism
 category: Radical Feminism
 ---
-{% include short-rad.md %}
+
+{{ include short-rad.md }}
