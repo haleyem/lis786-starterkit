@@ -3,5 +3,5 @@ title: Marxist Feminism
 layout: page
 permalink: /marxfem
 ---
-{% include short-marx.html %}
+{% include short-marx.md %}
 {% include pic-marx.html %}
