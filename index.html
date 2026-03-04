@@ -10,10 +10,11 @@ feminism: Feminism is a diverse political ideology. You might have as many kinds
 the pages linked in the navigation are these separate ways of looking at theory and history. Could they link back to the pages housing the links to the resources?
 kind of life wiki citations but on different pages. I'm also interested in tagging each bit with metadata like "rad" "lib" "article" "journal", etc.
 -->
+<!-- 
 <div class="nav"
 <nav>
     <p><b>Navigation</b></p>
-    <ul><!--I don't want these as bullet points-->
+    <ul>
     <li><a href="#">By Era</a></li>
     <li><a href="#">By Philosophy</a></li>
         <ul>
@@ -25,6 +26,8 @@ kind of life wiki citations but on different pages. I'm also interested in taggi
     <li><a href="#">Notable Figures</a></li>
     </ul>
 </nav>
+</div>
+-->
 <div>
     <h2>words and such</h2>
     {% for theory in site.theories %}
@@ -37,18 +40,4 @@ kind of life wiki citations but on different pages. I'm also interested in taggi
 <div class="body">
     <h3>Content</h3>
     <p>{{page.feminism}}</p>
-</div>
-<div>
-    <h3><a name="libfem">Liberal Feminism</a></h3>
-    <p>{% include short-lib.md %}</p>
-    <p><a href="#">Click here for more information on liberal feminism.</a></p><br>
-    <h3><a name="marxfem">Marxist Feminism</a></h3>
-    <p>{% include short-marx.md %}</p>
-    <p><a href="#">Click here for more information on Marxist feminism.</a></p><br>
-    <h3><a name="radfem">Radical Feminism</a></h3>
-    <p>{% include short-rad.md %}</p>
-    <p><a href="#">Click here for more information on radical feminism.</a></p><br>
-    <h3><a name="womanism">Womanism</a></h3>
-    <p>{% include short-wom.md %}</p>
-    <p><a href="#">Click here for more information on Womanism.</a></p><br>
 </div>
