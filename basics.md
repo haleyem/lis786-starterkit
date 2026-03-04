@@ -3,23 +3,22 @@ title: Basic Feminist Concepts
 layout: page
 permalink: /basics
 ---
+ ## Liberal Feminism
 
-    ## Liberal Feminism
+{% include short-lib.md %}
+Click here for more information on liberal feminism.
 
-    {{ include short-lib.md }}
-    Click here for more information on liberal feminism.
+## Marxist Feminism
 
-    ## Marxist Feminism
+{% include short-marx.md %}
+[Click here for more information on Marxist feminism.](/marx.md)
 
-    {{ include short-marx.md }}
-    [Click here for more information on Marxist feminism.](/marx.md)
+## Radical Feminism
 
-    ## Radical Feminism
+{% include short-rad.md %}
+Click here for more information on radical feminism.
 
-    {{ include short-rad.md }}
-    Click here for more information on radical feminism.
+## Womanism
 
-    ## Womanism
-
-    {{ include short-wom.md }}
-    Click here for more information on Womanism.
+{% include short-wom.md %}
+Click here for more information on Womanism.
