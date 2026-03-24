@@ -3,9 +3,10 @@ title: Basic Feminist Concepts
 layout: page
 permalink: /basics
 ---
+
  ## Liberal Feminism
 
-{% include short-lib.md %}
+{% include short-lib.md %}  
 Click here for more information on liberal feminism.
 
 ## Marxist Feminism
