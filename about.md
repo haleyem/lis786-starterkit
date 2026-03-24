@@ -7,7 +7,8 @@ feminism: Feminism is a diverse political ideology. You might have as many kinds
 ---
 {{page.intro}}\
 \
-**Navigation**\
+**Navigation** 
+
     - [By Era](#)\
     - [By Philosophy](#)\
     - [Notable Figures](#)
