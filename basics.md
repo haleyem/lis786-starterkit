@@ -4,7 +4,7 @@ layout: page
 permalink: /basics
 ---
 
- ## Liberal Feminism
+## Liberal Feminism
 
 {% include short-lib.md %}  
 Click here for more information on liberal feminism.
