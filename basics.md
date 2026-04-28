@@ -2,7 +2,8 @@
 title: Basic Feminist Concepts
 layout: page
 permalink: /basics
-order: 3
+nav-include: true
+nav-order: 3
 ---
 
 ## Feminist Vocabulary

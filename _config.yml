@@ -7,13 +7,6 @@ collections:
     output: true
 
 defaults:
-  - scope: 
-      path: ""
-      type: "page"
-    values:
-      layout: 
-
-defaults:
   - scope:
       type: "theories"
     values:

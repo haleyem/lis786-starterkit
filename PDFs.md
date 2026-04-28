@@ -2,7 +2,8 @@
 title: PDFs & Downloads
 layout: page
 permalink: /pdfs
-order: 5
+nav-include: true
+nav-order: 5
 ---
 This page will contain links to specific PDFs or downloaded resources 
  
