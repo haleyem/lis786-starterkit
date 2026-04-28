@@ -13,7 +13,7 @@ collections:
     - objectification.md
     - oppression.md
     - domestic_labor.md
-header_pages:
+nav_pages:
     - index.html
     - about.html
     - basics.md
