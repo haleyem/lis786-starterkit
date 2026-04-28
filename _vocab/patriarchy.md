@@ -1,0 +1,4 @@
+---
+title: Patriatchy
+category: Universal
+---

@@ -1,0 +1,4 @@
+---
+title: Oppression
+category: Universal
+---

@@ -9,7 +9,16 @@ order: 3
 
 These terms are used across different feminist theories. The nuances of the terms will change, but the basic meaning as presented here will stay the same.  
 
-{% for vocab in site.vocab %}
+```code```
+<div>
+    {% for vocab in site.vocab %}
+    <h3>{{ vocab.title }}</h3>
+    <p><img src="{{vocab.image}}"></p>
+    <p>{{ vocab.content }}</p>
+    <p>Part of {{ vocab.category }}</p>
+    {% endfor %}
+</div>
+
 
 ## Liberal Feminism
 
