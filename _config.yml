@@ -6,8 +6,12 @@ collections:
   vocab:
     output: true
 
-
-
+defaults:
+  - scope: 
+      path: ""
+      type: "page"
+    values:
+      layout: 
 
 defaults:
   - scope:
