@@ -21,3 +21,12 @@ nav{
         color:rgb(87, 7, 161);
     }
 }
+/* Style the search box inside the navigation bar but it is not topnav */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
