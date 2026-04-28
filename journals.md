@@ -2,7 +2,7 @@
 title: Journals
 layout: page
 permalink: /journals
-nav_order: 4
+order: 4
 ---
 
 ## Completely Open Access

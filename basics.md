@@ -2,7 +2,7 @@
 title: Basic Feminist Concepts
 layout: page
 permalink: /basics
-nav_order: 3
+order: 3
 ---
 
 ## Liberal Feminism
