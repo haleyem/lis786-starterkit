@@ -3,6 +3,8 @@ theme: minima
 collections:
   theories:
     output: true
+  vocab:
+    output: true
 
 
 defaults:
@@ -10,3 +12,9 @@ defaults:
       type: "theories"
     values:
       layout: theory_item
+
+defaults:
+  - scope:
+      type: "vocab"
+    values:
+      layout: vocab_item

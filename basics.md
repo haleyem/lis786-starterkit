@@ -5,6 +5,12 @@ permalink: /basics
 order: 3
 ---
 
+## Feminist Vocabulary
+
+These terms are used across different feminist theories. The nuances of the terms will change, but the basic meaning as presented here will stay the same.  
+
+{% for vocab in site.vocab %}
+
 ## Liberal Feminism
 
 {% include short-lib.md %}  
@@ -25,33 +31,7 @@ order: 3
 {% include short-wom.md %}
 Click here for more information on Womanism.
 
-## Patriarchy
 
-text
-
-## Gender
-
-text
-
-## Misogyny
-
-text
-
-## Sex
-
-text
-
-## Objectification
-
-text
-
-## Domestic Labor
-
-Overlapping with reproductive labor—which is not limited to sexual reproduction. 
-
-## Oppression
-
-text
 
 # Resources
 
