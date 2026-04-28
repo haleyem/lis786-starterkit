@@ -9,7 +9,7 @@ order: 3
 
 These terms are used across different feminist theories. The nuances of the terms will change, but the basic meaning as presented here will stay the same.  
 
-```code```
+```
 <div>
     {% for vocab in site.vocab %}
     <h3>{{ vocab.title }}</h3>
@@ -18,7 +18,7 @@ These terms are used across different feminist theories. The nuances of the term
     <p>Part of {{ vocab.category }}</p>
     {% endfor %}
 </div>
-
+```
 
 ## Liberal Feminism
 
