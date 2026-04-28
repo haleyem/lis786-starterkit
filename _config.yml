@@ -5,6 +5,14 @@ collections:
     output: true
   vocab:
     output: true
+    order: 
+    - patriarchy.md
+    - misogyny.md
+    - gender.md
+    - sex.md
+    - objectification.md
+    - oppression.md
+    - domestic_labor.md
 
 defaults:
   - scope:
