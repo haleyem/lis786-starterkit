@@ -1,5 +1,5 @@
 ---
-title: Open Access Journals
+title: Journals
 layout: page
 permalink: /journals
 ---
