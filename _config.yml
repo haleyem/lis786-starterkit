@@ -1,12 +1,5 @@
 title: Open Access Feminist Resources
 theme: minima
-  nav_pages:
-    - index.html
-    - about.html
-    - basics.md
-    - journals.md
-    - PDFs.md
-    - Videos.md
 collections:
   theories:
     output: true
@@ -20,7 +13,13 @@ collections:
     - objectification.md
     - oppression.md
     - domestic_labor.md
-
+nav_pages:
+    - index.html
+    - about.html
+    - basics.md
+    - journals.md
+    - PDFs.md
+    - Videos.md
 defaults:
   - scope:
       type: "theories"
