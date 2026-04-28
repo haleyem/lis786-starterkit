@@ -20,6 +20,7 @@ header_pages:
     - journals.md
     - PDFs.md
     - Videos.md
+
 defaults:
   - scope:
       type: "theories"
