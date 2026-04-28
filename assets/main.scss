@@ -3,31 +3,18 @@
 
 @import "{{ site.theme }}";
 
-body
-{
+body {
     background-color: rgb(230, 223, 245);
 }
 
-header
-{
+header {
     background-color: rgb(87, 7, 161);
-    color: rgb(230, 223, 245)
+    a {
+    color: rgb(230, 223, 245);
+    }
 }
 
 
-nav{
-    ul{
-        list-style: none;
-        border: 1px rgb(87, 7, 161);
-    }
-    li { 
-        display: inline-block; 
-    }
-    a
-    {
-        color:rgb(87, 7, 161);
-    }
-}
 
 div.trigger
 {
