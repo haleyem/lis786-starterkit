@@ -13,7 +13,11 @@ nav{
         list-style: none;
         border: 1px rgb(87, 7, 161);
     }
-    li a:hover{
+    li { 
+        display: inline-block; 
+    }
+    a
+    {
         color:rgb(87, 7, 161);
     }
 }
