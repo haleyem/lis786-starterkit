@@ -6,6 +6,8 @@ nav-include: true
 nav-order: 3
 ---
 
+INTRO
+
 ## Feminist Vocabulary
 
 These terms are used across different feminist theories. The nuances of the terms will change, but the basic meaning as presented here will stay the same.  
