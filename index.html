@@ -28,6 +28,13 @@ kind of life wiki citations but on different pages. I'm also interested in taggi
 </nav>
 </div>
 -->
+<div class="search">
+  <input type="text" placeholder="Search..">
+</div>
+<div class="body">
+    <h3>Content</h3>
+    <p>{{page.feminism}}</p>
+</div>
 <div>
     <h2>words and such</h2>
     {% for theory in site.theories %}
@@ -36,8 +43,4 @@ kind of life wiki citations but on different pages. I'm also interested in taggi
     <p>{{ theory.content }}</p>
     <p>Part of {{ theory.category }}</p>
     {% endfor %}
-</div>
-<div class="body">
-    <h3>Content</h3>
-    <p>{{page.feminism}}</p>
 </div>
