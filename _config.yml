@@ -4,7 +4,6 @@ collections:
   theories:
     output: true
   vocab:
-    output: true
     order: 
     - patriarchy.md
     - misogyny.md
