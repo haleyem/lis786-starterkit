@@ -78,3 +78,10 @@ figure.img-inner {
  margin-bottom: 10px;
  margin-top: 5px;
 }
+
+.video-right {
+    @media all and (min-width: 960px) {
+        width: 33%;
+        float: right;
+}
+}
