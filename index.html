@@ -26,10 +26,6 @@ kind of life wiki citations but on different pages. I'm also interested in taggi
     <h3 class="hi">Content</h3>
     <p>text</p>
 </div>
-</div>
-<div class="img-right" markdown="1">
-  ![image of protest poster](assets/images/general.avif)
-</div>
 <div>
     <h2>Feminist Movements</h2>
     {% for movement in site.movements %}
@@ -39,7 +35,10 @@ kind of life wiki citations but on different pages. I'm also interested in taggi
     <p>Part of {{ movement.category }}</p>
     {% endfor %}
 </div>
-
+</div>
+<div class="img-right" markdown="1">
+![image of protest poster](assets/images/general.jpeg) 
+</div>
 <!-- <div class="card">
     {% for movement in site.movements %}
   <img src="{{movement.image}}" alt="Avatar" style="width:100%">
