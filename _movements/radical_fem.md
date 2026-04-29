@@ -1,5 +1,6 @@
 ---
 title: Radical Feminism
+layout: post
 category: Movements
 ---
 
