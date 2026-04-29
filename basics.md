@@ -24,7 +24,6 @@ These terms are used across different feminist theories. The nuances of the term
 </div>
 
 <div>
-{% for  %}
 
 I want only foundational vocab on the vocab page; how?
 
