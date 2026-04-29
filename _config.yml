@@ -15,6 +15,10 @@ collections:
     - domestic_labor.md
   ideologies:
     output: true
+  movements:
+    output: true
+  people:
+    output: true
 
 nav_pages:
     - index.html
@@ -41,3 +45,15 @@ defaults:
       type: "vocab"
     values:
       layout: vocab_item
+
+defaults:
+  -scope:
+    type: "movements"
+    values:
+      layout: movement_item
+
+defaults:
+  -scope:
+    type: "people"
+    values:
+      layout: person_item
