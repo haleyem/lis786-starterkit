@@ -67,13 +67,13 @@ div.wrapper{
 }
 
 img {
- max-width: 95%;
+ max-width: 100%;
  height:auto;
 }
 
 figure.img-inner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+ display: inline-block;
+ margin-left: 5px;
+ margin-right: 5px;
+ margin-bottom: 10px;
 }
