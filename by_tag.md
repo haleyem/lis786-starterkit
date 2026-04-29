@@ -6,7 +6,7 @@ nav-include: true
 ---
 <div>
   Search through all of my posts by topic!
-</div> </br>
+</div>
 
 <div id="tags-list">
 {% for tag in site.tags %}
