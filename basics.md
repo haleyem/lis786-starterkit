@@ -23,8 +23,6 @@ These terms are used across different feminist theories. The nuances of the term
     {% endfor %}
 </div>
 
-<div>
-
 I want only foundational vocab on the vocab page; how?
 
 
