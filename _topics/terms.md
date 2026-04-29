@@ -4,8 +4,12 @@ layout: post
 permalink: /vocabulary
 ---
 
-{% for post in site.tags.term %}
+{% for post in site.posts %}
+{% for tag in post.tags %}
+{% if tag == "term" %}
 {{ post.title }}
+{% endif %}
+{% endfor %}
 {% endfor %}
 
 <div markdown="1">

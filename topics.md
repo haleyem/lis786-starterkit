@@ -9,12 +9,11 @@ nav-include: true
 
 <div markdown="1">
     {% for tagged in site.topics %}
-    <h3><a href="/lis786-starterkit/{{tagged.permalink}}">{{ tagged.title }}</a></h3>
+    <h3><a href="/lis786-starterkit{{tagged.permalink}}">{{ tagged.title }}</a></h3>
     <p><img src="{{tagged.image}}"></p>
     <p>{{ tagged.content }}</p>
     {% endfor %}
 </div>
 
-<a href="{{post.url}}">{{ post.title }}</a>
 
 6:15 run
