@@ -72,5 +72,8 @@ img {
 }
 
 figure.img-inner {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    
 }
