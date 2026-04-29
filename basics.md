@@ -23,28 +23,10 @@ These terms are used across different feminist theories. The nuances of the term
     {% endfor %}
 </div>
 
+<div>
+{% for  %}
+
 I want only foundational vocab on the vocab page; how?
-
-## Liberal Feminism
-
-{% include short-lib.md %}  
-[Click here for more information on liberal feminism.](/lib.md)
-
-## Marxist Feminism
-
-{% include short-marx.md %}
-[Click here for more information on Marxist feminism.](/marx.md)
-
-## Radical Feminism
-
-{% include short-rad.md %}
-[Click here for more information on radical feminism.](/rad.md)
-
-## Womanism
-
-{% include short-wom.md %}
-Click here for more information on Womanism.
-
 
 
 # Resources

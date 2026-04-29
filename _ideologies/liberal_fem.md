@@ -8,3 +8,4 @@ tags: liberal
 {% include short-lib.md %}
 
 {% if page.tags %}
+{% endif %}
