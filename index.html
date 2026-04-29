@@ -27,11 +27,19 @@ kind of life wiki citations but on different pages. I'm also interested in taggi
 </div>
 <div>
     <h2>Feminist Movements</h2>
-    <p></p>
-    {% for theory in site.theories %}
-    <h3>{{ theory.title }}</h3>
-    <p><img src="{{theory.image}}"></p>
-    <p>{{ theory.content }}</p>
-    <p>Part of {{ theory.category }}</p>
-    {% endfor %}
+    <div class="card">
+    {% for movement in site.movements %}
+  <img src="{{movement.image}}" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>{{ movement.title }}</b></h4>
+    <p>{{ movement.content }}</p>
+  </div>
 </div>
+</div>
+
+<!--  {% for movement in site.movements %}
+    <h3></h3>
+    <p><img src="{{movement.image}}"></p>
+    <p>{{ movement.content }}</p>
+    <p>Part of {{ movement.category }}</p>
+    {% endfor %} -->
