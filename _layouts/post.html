@@ -31,7 +31,7 @@ layout: base
       <div class="tag">
       {%- if page.tags -%}
       {% for tag in page.tags %}
-        <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
+        <a href="{{site.baseurl}}/tags.md#{{tag | slugize}}">
             #{{ tag }}
         </a>
     {% endfor %}
