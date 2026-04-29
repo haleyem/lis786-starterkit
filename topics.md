@@ -9,7 +9,7 @@ nav-include: true
 
 <div>
     {% for tagged in site.topics %}
-    <h3><a href="{{tagged.permalink}}">{{ tagged.title }}</a></h3>
+    <h3><a href="/lis786-starterkit/{{tagged.permalink}}">{{ tagged.title }}</a></h3>
     <p><img src="{{tagged.image}}"></p>
     <p>{{ tagged.content }}</p>
     {% endfor %}
@@ -17,5 +17,4 @@ nav-include: true
 
 <a href="{{post.url}}">{{ post.title }}</a>
 
-
-5:57 run
+6:15 run

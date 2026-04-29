@@ -8,7 +8,7 @@ permalink: /vocabulary
 {{ post.title }}
 {% endfor %}
 
-<div>
+<div markdown="1">
     {% for vocab in site.vocab %}
     <h3>{{ vocab.title }}</h3>
     <p>{{ vocab.content }}</p>

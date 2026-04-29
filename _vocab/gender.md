@@ -2,8 +2,7 @@
 title: Gender
 layout: post
 category: Foundations
-tags: 
-    - term
+tags: term
 ---
 
 A social category with associated traits, behaviors, appearance, and general norms. Gender is not located in a particular place in a person's biology or presented in one particular way; it is an amalgamation of multiple traits, behaviors, etc., and is influenced by the time period, culture, and context. This means gender roles can change.

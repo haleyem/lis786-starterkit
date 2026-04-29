@@ -2,8 +2,7 @@
 title: Domestic Labor
 layout: post
 category: Foundations
-tags:
-    - term
+tags: term
 ---
 
 Unpaid labor done in the home, or within the domestic sphere, to keep the household running. The responsibilities of cooking, cleaning, and care giving, including child care and elder care, are often relegated to women and girls. This is also called reproductive labor, as in labor done to reproduce the labor force.  
