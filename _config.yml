@@ -4,6 +4,7 @@ collections:
   theories:
     output: true
   vocab:
+    output: true
     order: 
     - patriarchy.md
     - misogyny.md
@@ -12,6 +13,9 @@ collections:
     - objectification.md
     - oppression.md
     - domestic_labor.md
+  movements:
+    output: true
+
 nav_pages:
     - index.html
     - about.html
