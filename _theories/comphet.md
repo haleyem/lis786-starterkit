@@ -1,5 +1,6 @@
 ---
 title: Compulsory Heterosexuality
+layout: post
 category: Radical Feminism
 tags: 
     - radical
