@@ -87,9 +87,9 @@ figure.img-inner {
         float: right;
 }
 }
-.text-left {
+
+div.box {
     @media all and (min-width: 960px) {
-        width: 66%;
-        float: left;
-    }
+        width: 100%
+}
 }
