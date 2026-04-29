@@ -19,6 +19,7 @@ These terms are used across different feminist theories. The nuances of the term
     <p><img src="{{vocab.image}}"></p>
     <p>{{ vocab.content }}</p>
     <p>Part of {{ vocab.category }}</p>
+    <p>{{ vocab.tags }}</p>
     {% endfor %}
 </div>
 
