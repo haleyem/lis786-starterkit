@@ -1,19 +1,17 @@
 ---
 title: Content by Topic
 layout: page
-permalink: /by_topic
+permalink: /topics
 nav-include: true
 ---
-<div>
-  Search through all of my posts by topic!
-</div>
+
+## Search through all of my posts by topic!
+
 
 <div>
-    {% for post_tags in site.tag %}
-    <h3>{{ tag.title }}</h3>
-    <p><img src="{{tag.image}}"></p>
-    <p>{{ tag.content }}</p>
+    {% for post_tags in site.tagged %}
+    <h3>{{ tagged.title }}</h3>
+    <p><img src="{{tagged.image}}"></p>
+    <p>{{ tagged.content }}</p>
     {% endfor %}
 </div>
-
-{{ site.tags }}

@@ -2,7 +2,6 @@ title: Open Access Feminist Resources
 theme: minima
 collections:
   post_tags:
-    permalink: /tags/:name/
     output: true
   theories:
     output: true
@@ -33,11 +32,9 @@ nav_pages:
 
 defaults:
   - scope:
-      path: ''
       type: "post_tags"
     values:
-      permalink: "/tags/:name/"
-      layout: tag_item
+      layout: tagged_item
 
 
 defaults:
