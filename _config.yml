@@ -1,6 +1,9 @@
 title: Open Access Feminist Resources
 theme: minima
 collections:
+  post_tags:
+    permalink: /tags/:name/
+    output: true
   theories:
     output: true
   vocab:
