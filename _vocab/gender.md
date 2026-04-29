@@ -1,4 +1,6 @@
 ---
 title: Gender
-category: Universal
+category: Foundations
+tags: 
+    - term
 ---

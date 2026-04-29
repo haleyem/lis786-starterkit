@@ -1,4 +1,6 @@
 ---
 title: Oppression
-category: Universal
+category: Foundations
+tags: 
+    - term
 ---

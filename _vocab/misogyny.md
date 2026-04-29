@@ -1,4 +1,6 @@
 ---
 title: Misogyny
-category: Universal
+category: Foundations
+tags: 
+    - term
 ---

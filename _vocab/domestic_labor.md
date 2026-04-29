@@ -1,4 +1,6 @@
 ---
 title: Domestic Labor
-category: Universal
+category: Foundations
+tags:
+    - term
 ---

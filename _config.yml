@@ -15,6 +15,9 @@ collections:
     - domestic_labor.md
   ideologies:
     output: true
+  liberal:
+    output: true
+    permalink: /:liberal/:categories:output_ext
 
 nav_pages:
     - index.html

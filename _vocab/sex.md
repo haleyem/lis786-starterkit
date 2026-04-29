@@ -1,4 +1,6 @@
 ---
 title: Sex
-category: Universal
+category: Foundations
+tags: 
+    - term
 ---

@@ -1,4 +1,6 @@
 ---
 title: Patriatchy
-category: Universal
+category: Foundations
+tags: 
+    - term
 ---

@@ -1,4 +1,6 @@
 ---
 title: Objectification
-category: Universal
+category: Foundations
+tags: 
+    - term
 ---
