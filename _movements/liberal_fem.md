@@ -1,5 +1,6 @@
 ---
 title: Liberal Feminism
+layout: post
 category: Movements
 ---
 
