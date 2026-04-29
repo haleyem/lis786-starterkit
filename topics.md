@@ -9,10 +9,12 @@ nav-include: true
 
 <div>
     {% for tagged in site.post_tags %}
-    <h3>{{ tagged.title }}</h3>
+    <h3><a href="/_post_tags{{tagged.permalink}}">{{ tagged.title }}</a></h3>
     <p><img src="{{tagged.image}}"></p>
     <p>{{ tagged.content }}</p>
     {% endfor %}
 </div>
 
 {{ site.tags.term }}
+
+5:25 run
