@@ -52,6 +52,7 @@ div.wrapper{
     @media all and (min-width: 960px) {
         width: 66%;
         float: left;
+        padding-right: 10px;
     }
 }
 
@@ -59,6 +60,7 @@ div.wrapper{
     @media all and (min-width: 960px) {
         width: 33%;
         float: right;
+        border: 1px double black;
     }
 
 }
