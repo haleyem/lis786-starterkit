@@ -1,6 +1,6 @@
 ---
 title: Radical Feminism
-category: Radical Feminism
+category: Movements
 ---
 
 {% include short-rad.md %}

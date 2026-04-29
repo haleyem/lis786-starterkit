@@ -26,6 +26,10 @@ defaults:
       type: "theories"
     values:
       layout: theory_item
+  - scope: 
+      type: "movements"
+    values:
+      layout: movement_item
 
 defaults:
   - scope:
