@@ -3,5 +3,4 @@ Title: Vocabulary
 layout: tag
 ---
 
-{% for site.tags.term %}
-{% endfor %}
+{{ site.tags.term }}
