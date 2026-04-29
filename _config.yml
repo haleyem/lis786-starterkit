@@ -32,6 +32,11 @@ nav_pages:
     - Videos.md
 
 defaults:
+  - scope: 
+    type: "post_tags"
+  values:
+    layout: tag_item
+defaults:
   - scope:
       type: "theories"
     values:
