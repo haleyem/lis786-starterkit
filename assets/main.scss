@@ -79,9 +79,17 @@ figure.img-inner {
  margin-top: 5px;
 }
 
+// for pages with media
+
 .video-right {
     @media all and (min-width: 960px) {
         width: 33%;
         float: right;
 }
+}
+.text-left {
+    @media all and (min-width: 960px) {
+        width: 66%;
+        float: left;
+    }
 }
