@@ -8,4 +8,4 @@ nav-include: true
   Search through all of my posts by topic!
 </div>
 
-{% }
+{{ site.tags }}
