@@ -5,14 +5,6 @@ collections:
     output: true
   vocab:
     output: true
-    order: 
-    - patriarchy.md
-    - misogyny.md
-    - gender.md
-    - sex.md
-    - objectification.md
-    - oppression.md
-    - domestic_labor.md
 nav_pages:
     - index.html
     - about.html
@@ -34,5 +26,13 @@ defaults:
 defaults:
   - scope:
       type: "vocab"
+      order: 
+    - patriarchy.md
+    - misogyny.md
+    - gender.md
+    - sex.md
+    - objectification.md
+    - oppression.md
+    - domestic_labor.md
     values:
       layout: vocab_item
