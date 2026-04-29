@@ -15,4 +15,13 @@ header.site-header {
 border-bottom: 2px dashed black;
 }
 
+div.wrapper{
+    max-width: -webkit-calc(1000px - (30px * 2));
+    max-width: calc(1000px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
 
