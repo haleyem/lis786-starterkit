@@ -25,6 +25,9 @@ These terms are used across different feminist theories. The nuances of the term
 
 I want only foundational vocab on the vocab page; how?
 
+## Feminist Theory
+
+{% include pressbooks_theory.md %}
 
 # Resources
 

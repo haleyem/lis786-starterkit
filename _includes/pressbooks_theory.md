@@ -1,0 +1,1 @@
+In *Theoretical Models for Teaching and Research*, "[Feminist Theory](https://opentext.wsu.edu/theoreticalmodelsforteachingandresearch/chapter/feminist-theory/)" by Jo Ann Arinder
