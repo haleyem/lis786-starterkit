@@ -2,6 +2,7 @@
 title: Video & Audio
 layout: page
 permalink: /videos
+media: true
 nav-include: true
 nav-order: 6
 ---
