@@ -54,4 +54,13 @@ layout: base
 {% endfor %}
 </ul>
 </div>
+
+{% for post in site.tags.term %}
+
+<h1>{{ post.title }}</h1>
+
+{% endfor %}
+
+<a href="{{post.url}}">{{ post.title }}</a>
+
 -->
