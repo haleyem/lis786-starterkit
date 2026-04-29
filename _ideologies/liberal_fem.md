@@ -1,7 +1,8 @@
 ---
 title: Liberal Feminism
 layout: post
-category: Movements
+category: Ideologies
+tags: liberal
 ---
 
 {% include short-lib.md %}

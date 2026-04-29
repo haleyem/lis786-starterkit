@@ -1,7 +1,8 @@
 ---
 title: Radical Feminism
 layout: post
-category: Movements
+category: Ideologies
+tags: radical
 ---
 
 {% include short-rad.md %}

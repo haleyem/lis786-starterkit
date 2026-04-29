@@ -13,7 +13,7 @@ collections:
     - objectification.md
     - oppression.md
     - domestic_labor.md
-  movements:
+  ideologies:
     output: true
 
 nav_pages:
@@ -32,9 +32,9 @@ defaults:
 
 defaults:
   - scope: 
-      type: "movements"
+      type: "ideologies"
     values:
-      layout: movement_item
+      layout: ideology_item
 
 defaults:
   - scope:
