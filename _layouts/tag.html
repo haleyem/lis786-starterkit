@@ -8,11 +8,15 @@ layout: base
 
 <div>
 <ul>
-    {% for tag in site.tags %}  
+    {% for post in site.documents %}
+    {% for tag in page.tags %}
+    {% if page.tags contains [page.tag] %}  
     <li>
         <a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
     </li>
-{% endfor %}
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
 </ul>
 {{ content }}
 Browse more <a href="/lis786-starterkit/tags">tags</a>.
