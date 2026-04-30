@@ -1,4 +1,6 @@
 title: Open Access Feminist Resources
+baseurl: "/lis786-starterkit"
+url: "https://haleyem.github.io"
 theme: minima
 collections:
   topics:
