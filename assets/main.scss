@@ -111,4 +111,23 @@ a {
   padding: 14px 16px;
   text-decoration: none;
 }
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(61, 18, 114);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(125, 44, 246);
+}
+
+/* selected link */
+a:active {
+  color: black
+}
 }

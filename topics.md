@@ -7,15 +7,6 @@ nav-include: true
 
 ## Search through all of my posts by topic!
 
-{% capture tags %}
-  {% for tag in site.tags %}
-    {{ tag[0] }}
-  {% endfor %}
-{% endcapture %}
-{% assign sortedtags = tags | split:' ' | sort %}
-{% for tag in sortedtags %}
-    <a href="/tags/{{ tag }}/">{{ tag }}</a><br>
-{% endfor %}
 
 <div>
     {% for tagged in site.topics %}
