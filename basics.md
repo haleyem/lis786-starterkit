@@ -22,10 +22,12 @@ These terms are used across different feminist theories. The nuances of the term
     {% endfor %}
 </div>
 
-## Feminist Theory
+## Feminist Ideologies
+
+
+
+### More Resources...  
 
 {% include pressbooks_theory.md %}
 
-# Resources
 
-[text](https://opentext.wsu.edu/theoreticalmodelsforteachingandresearch/chapter/feminist-theory/)  
