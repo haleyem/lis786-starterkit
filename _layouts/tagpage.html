@@ -1,11 +1,11 @@
 ---
 layout: base
 ---
-
-<h1>{{ page.title | capitalize }}</h1>
-
-<h1>{{ page.tag | capitalize }}</h1>
-
+<article>
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
+<div>
 <ul>
     {% for post in site.tags[page.tag] %}
     <li>
@@ -13,3 +13,6 @@ layout: base
     </li>
     {% endfor %}
 </ul>
+<a>Browse more <a href="/lis786-starterkit/tags">tags</a>.
+</div>
+</article>
