@@ -3,6 +3,9 @@ baseurl: "/lis786-starterkit"
 url: "https://haleyem.github.io"
 theme: minima
 collections:
+  tags:
+    output: true
+    permalink: /tags/:title
   topics:
     output: true
   theories:
@@ -29,6 +32,13 @@ collections:
     output: true
     permalink: /people/:title
 
+
+defaults:
+  -scope:
+    path: ""
+    type: "tags"
+  values:
+    layout: tagging_item
 
 defaults:
   - scope:
