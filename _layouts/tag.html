@@ -7,7 +7,7 @@ layout: base
     </header>
 <div>
 <ul>
-    {% for post.tags in site.documents %}
+    {% for tags in site.documents %}
     {% for tag in page.tags %}
     {% if page.tags contains [page.tags] %}  
     <li>
