@@ -6,8 +6,6 @@ collections:
   tags:
     output: true
     permalink: /tags/:title
-  topics:
-    output: true
   theories:
     output: true
     permalink: /theories/:title
