@@ -10,7 +10,7 @@ layout: base
 <ul>
     {% for post in site.documents %}
     {% for tag in page.tags %}
-    {% if page.tags contains [page.tag] %}  
+    {% if page.tags contains [page.tags] %}  
     <li>
         <a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
     </li>
