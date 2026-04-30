@@ -1,2 +1,8 @@
-{% for item in site.nav_bar %}
-{% endfor %}
+<div class="nav-items">
+  {%- for path in include.paths -%}
+  {%- assign hyperpage = site.pages | where: "path", path | first -%}
+  {%- if hyperpage.title %}
+  <a class="nav-item" href="{{ bar.url | relative_url }}">{{ bar.title }}</a>
+  {%- endif -%}
+  {%- endfor %}
+</div>
