@@ -7,10 +7,10 @@ collections:
     output: true
   theories:
     output: true
-    permalink: /theories/:Title
+    permalink: /theories/:title
   vocab:
     output: true
-    permalink: /vocab/:Title
+    permalink: /vocab/:title
     order: 
     - patriarchy.md
     - misogyny.md
@@ -21,13 +21,13 @@ collections:
     - domestic_labor.md
   ideologies:
     output: true
-    permalink: /ideologies/:Title
+    permalink: /ideologies/:title
   movements:
     output: true
-    permalink: /movements/:Title
+    permalink: /movements/:title
   people:
     output: true
-    permalink: /people/:Title
+    permalink: /people/:title
 
 
 defaults:
