@@ -1,10 +1,5 @@
 title: Open Access Feminist Resources
 theme: minima
-nav_bar:
-  - title: "Home"
-    url: "/"
-  - title: "The Basics"
-    url: "/basics"
 collections:
   topics:
     output: true

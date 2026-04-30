@@ -13,4 +13,5 @@ permalink: /movements
 {% endif %}
 {% endfor %}
 {% endfor %}
-{{ page.image }}
+
+!({{ page.image }})
