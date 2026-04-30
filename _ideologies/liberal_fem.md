@@ -1,7 +1,7 @@
 ---
 title: Liberal Feminism
 layout: post
-permalink: ideologies/liberal_fem
+permalink: /ideologies/liberal_fem
 image: 
 category: Ideologies
 tags: liberal

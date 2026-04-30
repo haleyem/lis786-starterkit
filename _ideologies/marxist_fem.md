@@ -1,6 +1,6 @@
 ---
 title: Marxist Feminism
-layout: page
+layout: post
 image: /lis786-starterkit/images/ange.jpg
 category: Ideologies
 tags: marxist
