@@ -3,7 +3,6 @@ title: Basic Feminist Concepts
 layout: page
 permalink: /basics
 nav-include: true
-nav-order: 3
 ---
 
 INTRO
