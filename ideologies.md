@@ -17,6 +17,7 @@ TEXT
 <p>{{ ideology.content }}</p>
 </div>
 {% if ideology.image != blank %}
+{% continue %}
 <div class="img-right">
     <figure class="img-inner">
     <img src="{{ ideology.image }}">
