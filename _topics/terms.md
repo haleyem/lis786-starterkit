@@ -13,3 +13,4 @@ permalink: /terms
 {% endfor %}
 {% endfor %}
 
+{{ site.tags.term }}

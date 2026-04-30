@@ -14,3 +14,5 @@ nav-include: true
     <p><img src="{{tagged.image}}"></p>
     {% endfor %}
 </div>
+
+{{ site.tags.term }}
