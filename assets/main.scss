@@ -94,15 +94,21 @@ div.box {
 }
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-ul li a {
+nav { 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+a {
   display: block;
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
 }
