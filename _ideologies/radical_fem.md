@@ -1,5 +1,6 @@
 ---
 title: Radical Feminism
+shortTitle: radfeminism
 layout: post
 image: 
 tags: radical

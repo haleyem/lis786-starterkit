@@ -1,5 +1,6 @@
 ---
 title: Liberal Feminism
+shortTitle: libfeminism
 layout: post
 image: 
 category: Ideologies
