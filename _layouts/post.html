@@ -28,13 +28,6 @@ layout: base
           {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       </div>
-      <div class="tag"> <!-- I want a list of all of the tags with links. 
-        ideally they will filter so the page will contain all data and you can filter by tag -->
-      {%- if page.tags -%}
-      {% for tag in page.tags %}
-        <a href="{{site.baseurl}}/tags.md#{{tag | slugize}}">
-            #{{ tag }}
-        </a>
     {% endfor %}
     {%- endif -%}
     </div>
