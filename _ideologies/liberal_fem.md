@@ -2,6 +2,7 @@
 title: Liberal Feminism
 shortTitle: libfeminism
 layout: post
+permalink: ideologies/liberal_fem.md
 image: 
 category: Ideologies
 tags: liberal
