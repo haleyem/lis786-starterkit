@@ -2,6 +2,7 @@
 Title: Movements
 layout: post
 snip: Social, political and economic feminists movements with a specific goal in mind.
+image: /lis786-starterkit/images/vote.png
 permalink: /movements
 ---
 
@@ -12,3 +13,4 @@ permalink: /movements
 {% endif %}
 {% endfor %}
 {% endfor %}
+{{ page.image }}
