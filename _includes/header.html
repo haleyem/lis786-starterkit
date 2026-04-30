@@ -8,9 +8,7 @@
 
     {%- unless page_titles == empty %}
       <nav class="site-nav">
-        {% include nav.html %}
-        {% for item in site.nav_bar %}
-        {% endfor %}
+        {% include nav.html paths = page_paths %}
       </nav>
     {%- endunless %}
   </div>
