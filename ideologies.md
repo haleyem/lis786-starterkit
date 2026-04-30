@@ -17,8 +17,10 @@ TEXT
 <p>{{ ideology.snip }}</p>
 <p>{{ ideology.content }}</p>
 </div>
-
-{% include img-in.html image_id="{{ ideology.image }}" %}
+<div class="img-right">
+    <figure class="img-inner">
+    <img src="{{ ideology.image }}">
+    </figure>
 </div>
 
 {% endfor %}
