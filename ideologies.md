@@ -1,7 +1,7 @@
 ---
 title: Political and Philosophical Perspectives
 layout: page
-permalink: /ideology
+permalink: /ideologies
 nav-include: true
 ---
 
