@@ -2,20 +2,11 @@
 title: Tags
 layout: page
 permalink: /tags
-nav-include: true
 ---
 
 ## Heading 
 
 a list of all of the tags on the website
-
-this html was working at least
-
-<ul>
-  {% for tag in site.tags %}
-    <li>{{ tag | first }}</li>
-  {% endfor %}
-</ul>
 
 <div>
     {% for tag in site.tags %}
