@@ -11,7 +11,6 @@ a list of all of the tags on the website
 
 this html was working at least
 
-{{ site.tags }}
 
 <div>
     {% for tag in site.tags %}
