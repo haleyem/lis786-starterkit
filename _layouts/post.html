@@ -28,9 +28,6 @@ layout: base
           {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       </div>
-    {% endfor %}
-    {%- endif -%}
-    </div>
       {%- endif %}
     </div>
   </header>
@@ -39,7 +36,7 @@ layout: base
     {{ content }}
   </div>
 
-{% if jekyll.environment == 'production' -%}
+  {% if jekyll.environment == 'production' -%}
     {% if page.comments == false -%}
     <div class="comments-disabled-message">
       Comments have been disabled for this post.
