@@ -3,7 +3,6 @@ title: Journals
 layout: page
 permalink: /journals
 nav-include: true
-nav-order: 4
 ---
 
 ## Completely Open Access
