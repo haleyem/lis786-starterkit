@@ -1,6 +1,7 @@
 ---
 Title: Terms
 layout: post
+snip: Definitions of terminology. 
 permalink: /terms
 ---
 

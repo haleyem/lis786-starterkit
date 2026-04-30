@@ -1,6 +1,7 @@
 ---
 Title: Movements
 layout: post
+snip: Social, political and economic feminists movements with a specific goal in mind.
 permalink: /movements
 ---
 
