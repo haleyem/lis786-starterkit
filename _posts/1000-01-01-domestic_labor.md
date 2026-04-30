@@ -12,8 +12,3 @@ In this case, reproductive means that the labor is producing the conditions need
 
 see: [Schlesinger Library: Domestic Labor and Home Economics](https://guides.library.harvard.edu/schlesinger/domesticlabor_homeeconomics)
 
-<small>
-    {% for tag in page.tags %}
-    <a href="/tags/{{ tag }}/">{{ tag }}</a>
-    {% endfor %}
-</small>

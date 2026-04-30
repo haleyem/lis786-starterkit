@@ -5,18 +5,14 @@ permalink: /tags
 nav-include: true
 ---
 
-{% capture tags %}
-  {% for tag in site.tags %}
-    {{ tag[0] }}
-  {% endfor %}
-{% endcapture %}
-{% assign sortedtags = tags | split:' ' | sort %}
+## Heading 
 
-{% for tag in sortedtags %}
-  <h3 id="{{ tag }}">{{ tag }}</h3>
+
+{% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
   <ul>
-  {% for post in site.tags[tag] %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
   </ul>
 {% endfor %}
