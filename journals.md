@@ -11,6 +11,9 @@ nav-order: 4
 [Atlantis: Critical Studies in Gender, Culture & Social Justice](https://atlantisjournal.ca/index.php/atlantis/en)  
 Atlantis is "a Diamond Open Access, peer-reviewed, scholarly journal in publication since 1975. They publish diverse approaches to contemporary topics and knowledges in the fields of Women’s, Gender, and Sexuality Studies. Their focus is on social justice as explored through an intersectional, transnational, decolonial, Indigenous, queer, and/or 2SLGBTQIA+ lens." <sup><sub>From their [About page](https://atlantisjournal.ca/atlantis/en/aboutthejournal)</sub></sup>
 
+Association of College and Reseach Libraries Collection Resource, [Open Access Online Feminist Journals
+](https://acrl.libguides.com/c.php?g=1094120&p=8197449)
+
 
 ## Partially Open Access
 
