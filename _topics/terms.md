@@ -12,9 +12,9 @@ permalink: /vocabulary
 {% endfor %}
 {% endfor %}
 
-<div markdown="1">
-    {% for vocab in site.vocab %}
-    <h3>{{ vocab.title }}</h3>
-    <p>{{ vocab.content }}</p>
-    {% endfor %}
-</div>
+
+{% for vocab in site.vocab %}
+{{ vocab.title }}
+{{ vocab.content }}
+{% endfor %}
+
