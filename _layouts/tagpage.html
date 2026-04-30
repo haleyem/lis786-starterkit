@@ -10,11 +10,3 @@ layout: default
     <p>{{ post.content }}</p>
     {% endfor %}
 </div>
-
-<ul>
-{% for post in site.tags[page.tag] %}
-  <li>
-    <a>{{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
