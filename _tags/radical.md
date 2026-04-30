@@ -1,6 +1,6 @@
 ---
 name: Radical Feminism
 permalink: /tags/radical
-layout: tagpage
+layout: tag
 tags: radical
 ---
