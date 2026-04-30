@@ -7,6 +7,16 @@ nav-include: true
 
 ## Search through all of my posts by topic!
 
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+{% for tag in sortedtags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a><br>
+{% endfor %}
+
 <div>
     {% for tagged in site.topics %}
     <h3><a href="/lis786-starterkit{{tagged.permalink}}">{{ tagged.title }}</a></h3>
@@ -14,5 +24,3 @@ nav-include: true
     <p><img src="{{tagged.image}}"></p>
     {% endfor %}
 </div>
-
-{{ site.tags.term }}
