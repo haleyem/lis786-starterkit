@@ -1,7 +1,7 @@
 ---
-Title: Vocabulary
+Title: Terms
 layout: post
-permalink: /vocabulary
+permalink: /terms
 ---
 
 {% for post in site.posts %}

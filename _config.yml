@@ -21,21 +21,19 @@ collections:
     output: true
   people:
     output: true
-
 nav_pages:
-    - index.html
-    - about.html
-    - basics.md
-    - journals.md
-    - PDFs.md
-    - Videos.md
+ - index.html
+ - basics.md
+ - topics.md
+ - articles.md
+ - journals.md
+ - Videos.md
 
 defaults:
   - scope:
       type: "topics"
     values:
       layout: tagged_item
-
 
 defaults:
   - scope:
