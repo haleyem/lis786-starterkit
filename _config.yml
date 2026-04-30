@@ -30,19 +30,11 @@ collections:
     output: true
     permalink: /people/:title
 
-
 defaults:
   -scope:
-    path: ""
     type: "tags"
   values:
-    layout: tagging_item
-
-defaults:
-  - scope:
-      type: "topics"
-    values:
-      layout: tagged_item
+    layout: tag_item
 
 defaults:
   - scope:

@@ -2,7 +2,6 @@
 title: Marxist Feminism
 shortTitle: marxfeminism
 layout: page
-
 image: /lis786-starterkit/images/ange.jpg
 category: Ideologies
 tags: marxist
