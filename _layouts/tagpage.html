@@ -4,22 +4,12 @@ layout: base
 
 <h1>{{ page.title | capitalize }}</h1>
 
-{% for tag in tags %}
+<h1>{{ page.tag | capitalize }}</h1>
 
-<h3 id="{{ tag | slugify }}">{{ tag }}</h3>
-  <hr>
-
-    {% for post in site.documents %}
-    {% if post.tags contains tag %} 
-    {% comment %}
-should "tag" be a variable? should the post.url be a relative url?
-    {% endcomment %}
-
-		<article>
-			<h4><a href="{{ post.url }}">{{ post.name }}</a></h4>
-		</article>
-
-	 {% endif %}
-	 {% endfor %}
-     
-{% endfor %}
+<ul>
+    {% for post in site.tags[page.tag] %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
