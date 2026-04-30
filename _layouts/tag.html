@@ -7,16 +7,6 @@ layout: base
     </header>
 <div>
 <ul>
-  {% for tag in site.tags %}
-    <li>
-      <strong>{{ tag[0] }}</strong> ({{ tag[1].size }} posts)
-    </li>
-  {% endfor %}
-</ul>
-</div>
-<!--
-<div>
-<ul>
     {% for post in site.documents %}
     {% for tag in page.tags %}
     {% if page.tags contains [page.tags] %}  
@@ -31,4 +21,3 @@ layout: base
 Browse more <a href="/lis786-starterkit/tags">tags</a>.
 </div>
 </article>
--->
