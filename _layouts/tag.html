@@ -8,14 +8,10 @@ layout: base
 
 <div>
 <ul>
-    {% assign page.tags = "tag" %} 
-    {% for post in site.documents %}
-    {% if page.tags == tag %}
+    {% for tag in site.tags %}  
     <li>
         <a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
     </li>
-    
-{% endif %}
 {% endfor %}
 
 </ul>
