@@ -7,11 +7,6 @@ nav-include: true
 
 ## Heading 
 
-
-{% for tag in site.tags %}
-  {% tag[0] %}
-{% endfor %}
-
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
