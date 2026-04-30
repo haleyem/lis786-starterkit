@@ -6,8 +6,8 @@ permalink: /movements
 ---
 
 {% for post in site.posts %}
-{% for tag in post.tags %}
-{% if tag == "movement" %}
+{% for tags in post.tags %}
+{% if tags == "movement" %}
 {{ post.title }}
 {% endif %}
 {% endfor %}

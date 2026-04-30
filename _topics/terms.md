@@ -6,16 +6,10 @@ permalink: /terms
 ---
 
 {% for post in site.posts %}
-{% for tag in post.tags %}
-{% if tag == "term" %}
+{% for tags in post.tags %}
+{% if tags == "term" %}
 {{ post.title }}
 {% endif %}
 {% endfor %}
-{% endfor %}
-
-
-{% for vocab in site.vocab %}
-{{ vocab.title }}
-{{ vocab.content }}
 {% endfor %}
 
