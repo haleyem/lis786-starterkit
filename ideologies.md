@@ -22,5 +22,5 @@ TEXT
     <img src="{{ ideology.image }}">
     </figure>
 </div>
-
+</div>
 {% endfor %}
