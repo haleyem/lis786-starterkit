@@ -42,6 +42,12 @@ Olurinatti or Olayemi “Olay” Olurin is a lawyer and Youtuber who posts cultu
 
 ## Podcasts
 
-https://guiltyfeminist.com/
+### Shows
+
+
+#### [The Guilty Feminist](https://guiltyfeminist.com/)
+
+
+### Episodes
 </div>
 </div>

@@ -5,7 +5,7 @@ permalink: /basics
 nav-include: true
 ---
 
-INTRO
+Simplified term defintions and background information, plus some introductional resources. 
 
 ## Feminist Vocabulary
 
@@ -17,17 +17,17 @@ These terms are used across different feminist theories. The nuances of the term
     <h3>{{ vocab.title }}</h3>
     <p><img src="{{vocab.image}}"></p>
     <p>{{ vocab.content }}</p>
-    <p>Part of {{ vocab.category }}</p>
-    <p>{{ vocab.tags }}</p>
     {% endfor %}
 </div>
 
 ## Feminist Ideologies
 
+Intro to various feminist ideologies. Coming soon...  
 
+## More Resources...  
 
-### More Resources...  
+### What is feminist theory?  
+{% include pressbooks_theory.md %}  
 
-{% include pressbooks_theory.md %}
 
 

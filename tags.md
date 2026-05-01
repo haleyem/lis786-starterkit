@@ -4,12 +4,12 @@ layout: page
 permalink: /tags
 ---
 
-## Heading 
-
-a list of all of the tags on the website
+Select a tag to see all posts under that tag.
 
 <div>
+    <ul>
     {% for tag in site.tags %}
-    <h3><a href="/lis786-starterkit{{tag.permalink}}">{{ tag.title }}</a></h3>
+    <li><a href="/lis786-starterkit{{tag.permalink}}">{{ tag.title }}</a></li>
     {% endfor %}
+    </ul>
 </div>

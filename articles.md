@@ -14,7 +14,7 @@ nav-order: 2
 
 ## General Resources
 
-["Gender Equity Websites, Blogs, & Resources" from Standford](https://wcc.stanford.edu/community-resources-stanford/gender-equity-websites-blogs-resources)
+["Gender Equity Websites, Blogs, & Resources"](https://wcc.stanford.edu/community-resources-stanford/gender-equity-websites-blogs-resources) from Standford University
 
 ## Blogs
 
