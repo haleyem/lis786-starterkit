@@ -7,14 +7,12 @@ layout: base
     </header>
 <div>
 <ul>
-    {% for tags in site.documents %}
-    {% for tag in page.tags %}
-    {% if page.tags contains [page.tags] %}  
+    {% for post in site.documents %}
+    {% if post contains [page.tags] %}  
     <li>
         <a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
     </li>
     {% endif %}
-    {% endfor %}
     {% endfor %}
 </ul>
 {{ content }}
