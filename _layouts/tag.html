@@ -9,12 +9,8 @@ layout: base
     {% assign my_tag = tags %}
     {{ page[my_tag] }}
     {% for post in site.documents %}
-<ul>  
-    <li>
-        <a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
-    </li>
+<a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
     {% endfor %}
-</ul>
 
 {% for tag in site.tags %}
 {{ tag }}
