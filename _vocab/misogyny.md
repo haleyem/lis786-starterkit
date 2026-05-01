@@ -5,4 +5,4 @@ category: Foundations
 tags: term
 ---
 
-{% inlcude tinytags.html %}
+{% include tinytags.html %}

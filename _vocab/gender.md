@@ -9,4 +9,4 @@ A social category with associated traits, behaviors, appearance, and general nor
 
 For example, in medieval England, women were considered more sexually driven than men. This was considered a bad thing. In the modern era, these gender rolese have somewhat reversed, and women are considered less sexually driven than men. Women being too sexual is still considered a bad thing, but so is being too chaste. 
 
-{% inlcude tinytags.html %}
+{% include tinytags.html %}
