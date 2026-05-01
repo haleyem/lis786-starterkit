@@ -1,6 +1,6 @@
 ---
 name: Queer Feminism
 shortTitle: lgbtq
-permalink: /tags/LGBTQ
+permalink: /tags/lgbtq
 layout: tag
 ---
