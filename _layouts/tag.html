@@ -6,15 +6,15 @@ layout: base
         <h1 class="post-title">{{ page.title | escape }}</h1>
     </header>
 <div>
-    {% for post in site.documents %}
-    {% if post.tags contains "page.tags" %}
-	<ul>
+    {% assign post_tag = page.tags %}
+    {% assign tagged_posts = site.posts | where_exp: "post", "post.tags contains 'post_tag'" %}
+    {% for post in tagged_posts %}
+    <ul>
         <li>
         <a href="/lis786-starterkit/{{post.permalink}}/">{{ post.title }}</a>
         </li>
 	</ul>
-{% endif %}
-{% endfor %}
+    {% endfor %}
 <p>Browse more <a href="/lis786-starterkit/tags">tags</a>.</p>
 </div>
 </article>
