@@ -8,9 +8,24 @@ layout: base
 <div>
 
 {% for tag in site.tags %}
-{{ tag }}
+{{ if tag is term }}
 {% endfor %}
 
 Browse more <a href="/lis786-starterkit/tags">tags</a>.
 </div>
 </article>
+ {% assign my_tag = tags %}
+    {{ page[my_tag] }}
+    {% for post in site.documents %}
+    <li>
+        <a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
+    </li>    
+    {% endfor %}
+
+<ul>
+    {% for post in site.documents %}
+    <li>
+        <a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
