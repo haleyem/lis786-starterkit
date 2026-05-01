@@ -1,7 +1,7 @@
 ---
 title: Unpaid work
 layout: post
-category: 
+type: Article
 tags: marxist 
 ---
 

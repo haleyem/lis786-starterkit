@@ -1,7 +1,6 @@
 ---
 title: Women's Suffrage
 layout: post
-category: Liberal Feminism
 image: https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2013q013094&max_w=800
 tags:
     - liberal
