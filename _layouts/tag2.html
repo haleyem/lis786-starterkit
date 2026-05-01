@@ -2,16 +2,19 @@
 layout: base
 ---
 <article>
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
 <div>
-   <ul>
-  {%- for collection in collections -%}
-    {%- for tag in collection.all_tags -%}
+<ul>
+    {% for post in site.documents %}
+    {% if post.tags contains "radical" %}
     <li>
-      {{ tag }}
-       </li>
-    {%- endfor -%}
-  {%- endfor -%}
-  </ul>
+        <a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+Browse more <a href="/lis786-starterkit/tags">tags</a>.
 </div>
 </article>
-
