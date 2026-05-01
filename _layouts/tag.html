@@ -6,19 +6,18 @@ layout: base
         <h1 class="post-title">{{ page.title | escape }}</h1>
     </header>
 <div>
-
-{% for post in site.documents %}
-{% assign tags = tags | concat:post.tags %}
-{% assign tags = tags | uniq | sort %}
-<h3 id="{{ tag | slugify }}">{{ tag }}</h3>
-	<ul>
     {% for post in site.documents %}
-      <li>
-        <a href="/lis786-starterkit{{ post.url }}"> {{ post.title }} </a>
-      </li>
-    {% endfor %}
+    {% if post.tags contains page.tags %}
+	<ul>
+        <li>
+        <a href="/lis786-starterkit/{{post.permalink}}/">{{ post.title }}</a>
+        </li>
 	</ul>
+{% endif %}
 {% endfor %}
-Browse more <a href="/lis786-starterkit/tags">tags</a>.
+<p>Browse more <a href="/lis786-starterkit/tags">tags</a>.</p>
 </div>
 </article>
+
+{% for post in site.documents %}
+
