@@ -16,10 +16,12 @@ There are various branches of feminism, all with different grounding philosophie
 <p>{{ ideology.snip }}</p>
 <p>{{ ideology.content }}</p>
 </div>
+{% unless ideology.image == empty %}
 <div class="img-right">
     <figure class="img-inner">
     <img src="{{ ideology.image }}">
     </figure>
 </div>
+{% endunless %}
 </div>
 {% endfor %}
