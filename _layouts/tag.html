@@ -6,29 +6,17 @@ layout: base
         <h1 class="post-title">{{ page.title | escape }}</h1>
     </header>
 <div>
-    {% assign all_categories = site.pages | map: "category" %}
-
-{% for item in all_categories %}
-- {{ item }}
-{% endfor %}
-
-    {% assign all_tags = site.tags | map: "tag" %}
-    {% for tags in all_tags %}
-    {% endfor %}
-    {% assign tagged_posts = site.posts | where_exp: "post", "post.tags contains 'post_tag'" %}
-    {% for post in tagged_posts %}
-    {% endfor %}
-{% capture my_tag %}
-    <ul>
+<ul>
+    {% assign page.title = "this_tag" | downcase %}
+    {{ this_tag }}
     {% for post in site.documents %}
-        <li>
-            <a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
-        </li>
+    {% if post.tags contains "radical" %}
+    <li>
+        <a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endif %}
     {% endfor %}
-    </ul>
-{% endcapture %}
-
-{{ my_tag }}
-
+</ul>
+Browse more <a href="/lis786-starterkit/tags">tags</a>.
 </div>
 </article>
