@@ -26,6 +26,9 @@ collections:
   movements:
     output: true
     permalink: /movements/:title
+  articles: 
+    output: true
+    permalink: /articles/:title
   people:
     output: true
     permalink: /people/:title

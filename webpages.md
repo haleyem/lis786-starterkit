@@ -1,7 +1,7 @@
 ---
 title: Articles & Webpages
 layout: page
-permalink: /articles
+permalink: /webpages
 nav-include: true
 nav-order: 2
 ---
