@@ -6,17 +6,11 @@ layout: base
         <h1 class="post-title">{{ page.title | escape }}</h1>
     </header>
 <div>
-    {% assign my_tag = tags %}
-    {{ page[my_tag] }}
-    {% for post in site.documents %}
-<a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
-    {% endfor %}
 
 {% for tag in site.tags %}
 {{ tag }}
 {% endfor %}
 
-{{ content }}
 Browse more <a href="/lis786-starterkit/tags">tags</a>.
 </div>
 </article>
