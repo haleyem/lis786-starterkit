@@ -7,7 +7,7 @@ nav-include: true
 
 There are various branches of feminism, all with different grounding philosophies. In the last 100 years, the three most influential have been liberal feminism, Marxist feminism, and radical feminism. 
 
-## Heading
+## Feminist Ideologies
 
 {% for ideology in site.ideologies %}
 <div class="box">
