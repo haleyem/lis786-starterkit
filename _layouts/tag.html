@@ -9,7 +9,6 @@ layout: base
 
 {% for post in site.documents %}
 {% assign tags = tags | concat:post.tags %}
-{% endfor %}
 {% assign tags = tags | uniq | sort %}
 <h3 id="{{ tag | slugify }}">{{ tag }}</h3>
 	<ul>
@@ -19,6 +18,7 @@ layout: base
       </li>
     {% endfor %}
 	</ul>
+{% endfor %}
 Browse more <a href="/lis786-starterkit/tags">tags</a>.
 </div>
 </article>
