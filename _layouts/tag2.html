@@ -7,8 +7,9 @@ layout: base
     </header>
 <div>
 <ul>
+    {% assign this_tag = page.shortTitle | downcase %}
     {% for post in site.documents %}
-    {% if post.tags contains "radical" %}
+    {% if post.tags contains this_tag %}
     <li>
         <a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
     </li>
