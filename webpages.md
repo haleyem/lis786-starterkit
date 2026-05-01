@@ -12,7 +12,7 @@ nav-order: 2
 {% include big_three.md %}
 
 {% for article in site.articles %}
-<div class="content-left">
+<div>
 <p>{{ article.content }}</p>
 </div>
 {% endfor %}
