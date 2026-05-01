@@ -1,6 +1,6 @@
 ---
 name: Feminist Movements
-permalink: /tags/movements
+permalink: /tags/movement
 layout: tag
 shortTitle: movement
 ---
