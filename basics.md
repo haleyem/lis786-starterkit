@@ -33,5 +33,9 @@ Intro to various feminist ideologies. Coming soon...
 ### What is feminist theory?  
 {% include pressbooks_theory.md %}  
 
+{% comment %}
+can i generate everything tagged a certain way here.... hmm... what is feminist theory? should all articles be in the articles collection?
+{% endcomment %}
+
 
 

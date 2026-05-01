@@ -58,10 +58,16 @@ defaults:
       layout: vocab_item
 
 defaults:
-  -scope:
-    type: "movements"
+  - scope:
+      type: "movements"
     values:
       layout: movement_item
+
+defaults:
+  -scope:
+    type: "articles"
+  values:
+    layout: article_item
 
 defaults:
   -scope:
