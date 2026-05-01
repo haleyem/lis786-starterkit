@@ -18,7 +18,7 @@ There are various branches of feminism, all with different grounding philosophie
 </div>
 {% if ideology.image %}
 {% unless ideology.image == blank %}
-<div class="img-right">
+<div class="img-right" class="ideo">
     <figure class="img-inner">
     <img src="{{ ideology.image }}">
     </figure>
