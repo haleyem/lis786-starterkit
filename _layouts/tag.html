@@ -7,7 +7,7 @@ layout: base
     </header>
 <div>
 <ul>
-    {% assign page.title = "this_tag" | downcase %}
+    {% assign page.shortTitle = "this_tag" | downcase %}
     {{ this_tag }}
     {% for post in site.documents %}
     {% if post.tags contains "radical" %}
