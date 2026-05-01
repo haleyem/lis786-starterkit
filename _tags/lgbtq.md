@@ -1,6 +1,6 @@
 ---
 name: Queer Feminism
-permalink: /tags/lgbtq
-layout: tagpage
-tags: lgbtq
+shortTitle: lgbtq
+permalink: /tags/LGBTQ
+layout: tag
 ---
