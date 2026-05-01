@@ -3,21 +3,15 @@ layout: base
 ---
 <article>
 <div>
-{%- capture all_tags_string -%}
+   <ul>
   {%- for collection in collections -%}
     {%- for tag in collection.all_tags -%}
-      {{ tag }}{% unless forloop.last and forloop.parentloop.last %},{% endunless %}
+    <li>
+      {{ tag }}
+       </li>
     {%- endfor -%}
   {%- endfor -%}
-{%- endcapture -%}
-
-{%- assign all_tags_array = all_tags_string | split: ',' | uniq | sort -%}
-
-<ul>
-  {%- for tag in all_tags_array -%}
-    <li>{{ tag }}</li>
-  {%- endfor -%}
-</ul>
+  </ul>
 </div>
 </article>
 
