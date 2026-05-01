@@ -1,6 +1,6 @@
 ---
 title: heteropessimism
-layout: page
+layout: post
 category: advanced
 tags: lgbtq term
 ---
