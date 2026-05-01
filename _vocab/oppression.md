@@ -1,9 +1,7 @@
 ---
 title: Oppression
 layout: post
-category: Foundations
+category: foundations
 tags: 
     - term
 ---
-
-{% include tinytags.html %}

@@ -14,6 +14,7 @@ These terms are used across different feminist theories. The nuances of the term
 
 <div>
     {% for vocab in site.vocab %}
+    {% if vocab.category contains "foundations" %}
     <h3>{{ vocab.title }}</h3>
     <p><img src="{{vocab.image}}"></p>
     <p>{{ vocab.content }}</p>
