@@ -17,7 +17,7 @@ layout: base
     {% endfor %}
     {% assign tagged_posts = site.posts | where_exp: "post", "post.tags contains 'post_tag'" %}
     {% for post in tagged_posts %}
-    {% end for %}
+    {% endfor %}
 {% capture my_tag %}
     <ul>
     {% for post in site.documents %}
