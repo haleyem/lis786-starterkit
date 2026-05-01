@@ -18,3 +18,17 @@ layout: base
 <p>Browse more <a href="/lis786-starterkit/tags">tags</a>.</p>
 </div>
 </article>
+
+
+    {% for post in site.documents %}
+    
+    {% assign tags = tags | concat:post.tags %}
+    {% assign tags = tags | uniq | sort %}
+    {% if post.tags contains "page.tags" %}
+	<ul>
+        <li>
+        <a href="/lis786-starterkit/{{post.permalink}}/">{{ post.title }}</a>
+        </li>
+	</ul>
+{% endif %}
+{% endfor %}
