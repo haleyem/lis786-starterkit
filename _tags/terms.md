@@ -1,8 +1,6 @@
 ---
 name: Common Terms
-permalink: /tags/terms
+permalink: /tags/term
 layout: tag
 tags: term
 ---
-
-6:15 run

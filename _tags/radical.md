@@ -1,10 +1,5 @@
 ---
 name: Radical Feminism
 permalink: /tags/radical
-layout: page
+layout: tag2
 ---
-
-{% for post in site.tags.radical %}
-{{ page. title }}
-  <a href="/lis786-starterkit{{post.url}}">{{ post.title }}</a>
-{% endfor %}
