@@ -5,5 +5,5 @@ layout: page
 ---
 
 {% for post in site.tags.radical %}
-  <a href="/lis786-starterkit{{post.permalink}}">{{ post.title }}</a>
+  <a href="/lis786-starterkit{{post.url}}">{{ post.title }}</a>
 {% endfor %}
