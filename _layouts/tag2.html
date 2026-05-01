@@ -1,0 +1,15 @@
+---
+layout: base
+---
+<article>
+<div id="tags">
+{% if collection.all_tags.size == 0 %}
+   No tags found.
+{% else %}
+   {% for tag in collection.all_tags | uniq %}
+      {{ tag | link_to_tag: tag }}
+      {% unless forloop.last %}, {% endunless %}
+   {% endfor %}
+{% endif %}
+</div>
+</article>
