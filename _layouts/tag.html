@@ -7,7 +7,7 @@ layout: base
     </header>
 <div>
     {% for post in site.documents %}
-    {% if post.tags contains page.tags %}
+    {% if post.tags contains "page.tags" %}
 	<ul>
         <li>
         <a href="/lis786-starterkit/{{post.permalink}}/">{{ post.title }}</a>
