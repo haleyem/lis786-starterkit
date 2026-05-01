@@ -13,15 +13,15 @@ These terms are used across different feminist theories. The nuances of the term
 
 
 <div>
+    <div class="mck">
     {% for vocab in site.vocab %}
     {% if vocab.category contains "foundations" %}
-    <div class="mck">
     <h3>{{ vocab.title }}</h3>
     <p><img src="{{vocab.image}}"></p>
     <p>{{ vocab.content }}</p>
-    </div>
     {% endif %}
     {% endfor %}
+    </div>
 </div>
 
 ## Feminist Ideologies
