@@ -15,8 +15,3 @@ a list of all of the tags on the website
     <p><img src="{{tag.image}}"></p>
     {% endfor %}
 </div>
-
-    {% for post in site.posts %}
-    {% assign tags = tags | concat:post.tags %}
-    {% endfor %}
-    {% assign tags = tags | uniq | sort %}

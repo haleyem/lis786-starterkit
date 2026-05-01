@@ -7,25 +7,19 @@ layout: base
     </header>
 <div>
 
-{% for tag in site.tags %}
-{{ if tag is term }}
+{% for post in site.documents %}
+{% assign tags = tags | concat:post.tags %}
 {% endfor %}
-
+{% assign tags = tags | uniq | sort %}
+<h3 id="{{ tag | slugify }}">{{ tag }}</h3>
+	<ul>
+    {% for post in site.documents %}
+      <li>
+        <a href="{{ post.url }}"> {{ post.title }} </a>
+        <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+      </li>
+    {% endfor %}
+	</ul>
 Browse more <a href="/lis786-starterkit/tags">tags</a>.
 </div>
 </article>
- {% assign my_tag = tags %}
-    {{ page[my_tag] }}
-    {% for post in site.documents %}
-    <li>
-        <a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
-    </li>    
-    {% endfor %}
-
-<ul>
-    {% for post in site.documents %}
-    <li>
-        <a href="/lis786-starterkit{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-</ul>

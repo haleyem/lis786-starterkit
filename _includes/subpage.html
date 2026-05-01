@@ -3,3 +3,8 @@
     <a href="/lis786-starterkit/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
 </small>
+
+
+{% for tag in site.tags %}
+{{ if tag is term }}
+{% endfor %}
