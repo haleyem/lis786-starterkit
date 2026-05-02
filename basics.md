@@ -15,16 +15,14 @@ These terms are used across different feminist theories. The nuances of the term
 <div>
     {% for vocab in site.vocab %}
     {% if vocab.category contains "foundations" %}
+    <div class="container">
     <h3>{{ vocab.title }}</h3>
     <p>{{ vocab.content }}</p>
+    </div>
     {% endif %}
     {% endfor %}
 </div>
 
-
-## Feminist Ideologies
-
-Intro to various feminist ideologies. Coming soon...  
 
 ## Questions  
 
