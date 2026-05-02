@@ -4,20 +4,20 @@
 
 
 body {
-    background-color: rgb(230, 223, 245);
+    background-color: rgb(204, 181, 226);
 }
 body {
   a:link{
- color: rgb(79, 24, 148)
+ color: rgb(9, 7, 65)
   }
   a:visited {
-  color: rgb(148, 24, 144);
+  color: rgb(73, 0, 46);
   }
   a:hover {
-  color: rgb(125, 44, 246)
+  color: rgb(33, 30, 115)
   }
   a:active {
-  color: darkblue;
+ color: rgb(9, 7, 65)
   }
 }
 
@@ -120,22 +120,22 @@ a {
 
 /* unvisited link */
 a:link {
-  color: black;
+  color: rbg(9, 7, 65);
 }
 
 /* visited link */
 a:visited {
-  color: rgb(61, 18, 114);
+  color: rgb(73, 0, 46);
 }
 
 /* mouse over link */
 a:hover {
-  color: rgb(125, 44, 246);
+  color: rgb(33, 30, 115)
 }
 
 /* selected link */
 a:active {
-  color: black
+ color: rgb(9, 7, 65)
 }
 }
 
