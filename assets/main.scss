@@ -6,17 +6,19 @@
 body {
     background-color: rgb(230, 223, 245);
 }
-body:link {
+body {
+  a:link{
  color:black
-}
-body:visited {
+  }
+  a:visited {
   color: rgb(61, 18, 114);
-}
-body:hover {
+  }
+  a:hover {
   color: rgb(125, 44, 246)
-}
-body:active {
+  }
+  a:active {
   color: darkblue;
+  }
 }
 
 
