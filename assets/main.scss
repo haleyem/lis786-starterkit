@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: whitesmoke;
+    background-color: #F8F2FC;
 }
 body {
   a:link{
@@ -21,14 +21,13 @@ body {
   }
 }
 
-
 header.site-header {
-    background-color: rgb(232, 212, 254);
+    background-color: #54306e;
     color: rgb(230, 223, 245);
-    border-bottom: 2px solid rbg(58, 51, 65);
+    border-bottom: 2px solid #705286;
 }
 .hi {
-border-bottom: 2px dashed rbg(58, 51, 65);
+border-bottom: 2px dashed #705286;
 }
 
 div.wrapper{
@@ -120,22 +119,22 @@ a {
 
 /* unvisited link */
 a:link {
-  color: rbg(9, 7, 65);
+  color: white;
 }
 
 /* visited link */
 a:visited {
-  color: rgb(73, 0, 46);
+  color: white;
 }
 
 /* mouse over link */
 a:hover {
-  color: rgb(33, 30, 115)
+  color: white;
 }
 
 /* selected link */
 a:active {
- color: rgb(9, 7, 65)
+ color: white;
 }
 }
 
