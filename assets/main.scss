@@ -30,6 +30,15 @@ header.site-header {
     color: rgb(230, 223, 245);
     border-bottom: 2px solid #927ba3;
 }
+
+.site-nav {
+  @media all and (max-width: 600px) {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 .hi {
 border-bottom: 2px dashed #927ba3;
 }
