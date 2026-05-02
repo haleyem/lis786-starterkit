@@ -91,14 +91,18 @@ figure.img-inner {
 }
 }
 
+nav {
+      display: flex;
+      overflow: hidden;
+      height: min-content;
+}
+
 nav { 
       @media all and (min-width: 960px) {
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    overflow: hidden;
   }
   li {
     float: left;
