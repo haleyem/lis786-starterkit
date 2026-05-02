@@ -12,17 +12,13 @@ Simplified term defintions and background information, plus some introductional 
 These terms are used across different feminist theories. The nuances of the terms will change, but the basic meaning as presented here will stay the same.  
 
 
-<div class="columns is-desktop">
-    <div class="column">
+<div>
     {% for vocab in site.vocab %}
     {% if vocab.category contains "foundations" %}
     <h3>{{ vocab.title }}</h3>
-        <div class="columns">
     <p>{{ vocab.content }}</p>
-        </div>
     {% endif %}
     {% endfor %}
-    </div>
 </div>
 
 
