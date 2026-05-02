@@ -26,7 +26,7 @@ These terms are used across different feminist theories. The nuances of the term
 
 Intro to various feminist ideologies. Coming soon...  
 
-## More Resources...  
+## Questions  
 
 ### What is feminist theory?  
 {% include pressbooks_theory.md %}  

@@ -6,9 +6,6 @@ collections:
   tags:
     output: true
     permalink: /tags/:title
-  theories:
-    output: true
-    permalink: /theories/:title
   vocab:
     output: true
     permalink: /vocab/:title

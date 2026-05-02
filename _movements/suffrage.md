@@ -1,7 +1,7 @@
 ---
 title: Women's Suffrage
 layout: post
-image: https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2013q013094&max_w=800
+image: images/votes.png
 tags:
     - liberal
     - movement
