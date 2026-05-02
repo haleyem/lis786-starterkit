@@ -25,6 +25,7 @@ These terms are used across different feminist theories. The nuances of the term
     </div>
 </div>
 
+
 ## Feminist Ideologies
 
 Intro to various feminist ideologies. Coming soon...  
