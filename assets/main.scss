@@ -28,10 +28,10 @@ body {
 header.site-header {
     background-color: #54306e;
     color: rgb(230, 223, 245);
-    border-bottom: 2px solid #705286;
+    border-bottom: 2px solid #927ba3;
 }
 .hi {
-border-bottom: 2px dashed #705286;
+border-bottom: 2px dashed #927ba3;
 }
 
 div.wrapper{
@@ -67,8 +67,6 @@ div.wrapper{
     @media all and (min-width: 960px) {
         width: 33%;
         float: right;
-        border: 1px double #705286;
-        background-color: #54306e;
     }
 
 }

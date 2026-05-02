@@ -1,7 +1,7 @@
 ---
 title: Women's Suffrage
 layout: post
-image: images/votes.png
+image: /lis786-starterkit/images/votes.png
 tags:
     - liberal
     - movements

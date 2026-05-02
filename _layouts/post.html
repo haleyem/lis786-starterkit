@@ -31,16 +31,16 @@ layout: base
       {%- endif %}
     </div>
   </header>
-
+<div class="container">
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+  </div>
   <small>
     {% for tag in page.tags %}
     <a href="/lis786-starterkit/tags/{{ tag }}">{{ tag }}</a>
     {% endfor %}
   </small>
   </div>
-
   {% if jekyll.environment == 'production' -%}
     {% if page.comments == false -%}
     <div class="comments-disabled-message">
