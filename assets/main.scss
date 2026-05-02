@@ -34,7 +34,7 @@ header.site-header {
 .site-nav {
   @media all and (max-width: 600px) {
     float: none;
-    display: block;
+    display: flex;
     text-align: left;
     background-color: white;
     color: black;
