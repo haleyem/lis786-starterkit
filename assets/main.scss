@@ -21,6 +21,10 @@ body {
   }
 }
 
+.site-title {
+  color: white;
+}
+
 header.site-header {
     background-color: #54306e;
     color: rgb(230, 223, 245);
@@ -63,9 +67,8 @@ div.wrapper{
     @media all and (min-width: 960px) {
         width: 33%;
         float: right;
-        border: 1px double black;
-        background-color: rgb(199, 196, 254);
-
+        border: 1px double #705286;
+        background-color: #54306e;
     }
 
 }
