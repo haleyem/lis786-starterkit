@@ -25,8 +25,7 @@ nav-include: true
 
 *[Mistral: Journal of Latin American Women's Intellectual & Cultural History](https://ugp.rug.nl/Mistral/index)*  
 *Mistral* "is an interdisciplinary open access platform for research that examines Latin American women’s contributions to intellectual history and the cultural sphere more broadly." It accepts publications in Spanish, English, and Portuguese.  
-
-
+  
 
 ## Partially Open Access
 
