@@ -18,12 +18,7 @@ These terms are used across different feminist theories. The nuances of the term
     {% if vocab.category contains "foundations" %}
     <h3>{{ vocab.title }}</h3>
         <div class="columns">
-            <div class="column is-two-thirds">
     <p>{{ vocab.content }}</p>
-            </div>
-            <div class="column">
-    <p><img src="{{vocab.image}}"></p>
-            </div>
         </div>
     {% endif %}
     {% endfor %}
