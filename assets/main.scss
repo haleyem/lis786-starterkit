@@ -33,25 +33,11 @@ header.site-header {
 header.site-header {
   @media all and (max-width: 600px) {
     flex-direction: column;
-
+    flex-wrap: wrap;
   }
 }
 
-header.post-header {
-  padding-top: 25 px;
-}
 
-h1.page-heading {
-  padding-top: 25px;
-}
-
-.site-nav {
-  @media all and (max-width: 600px) {
-    float: right;
-    display: block;
-    text-align: left;
-  }
-}
 
 .hi {
 border-bottom: 2px dashed #927ba3;
@@ -67,7 +53,15 @@ div.wrapper{
 }
 
 div.base {
-  border: #927ba3 3px;
+  border: #927ba3 5px;
+  border-radius: 12px;
+  background-color: #F8F2FC;
+  padding-top: 25px;
+  padding-bottom: 0px;
+}
+
+section.base {
+  border: #927ba3 5px;
   border-radius: 12px;
   background-color: #F8F2FC;
   padding-top: 25px;
