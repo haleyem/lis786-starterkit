@@ -1,6 +1,6 @@
 ---
 name: Black Feminism & Women of Color Feminism
-shortTitle: wocfeminism
+shortTitle: race
 permalink: /tags/race
 layout: tag
 ---
