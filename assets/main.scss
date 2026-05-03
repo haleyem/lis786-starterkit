@@ -28,6 +28,12 @@ body {
   }
 }
 
+main {
+  @media all and (max-width: 600px) {
+    display: flex;
+}
+}
+
 header.site-header {
     background-color: #54306e;
     border-bottom: 2px solid #927ba3;
