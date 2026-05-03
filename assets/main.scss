@@ -151,28 +151,18 @@ nav {
     text-decoration: none;
   }
 }
-}
-
-
-
-/* unvisited link */
-a:link {
+  a:link {
   color: white;
 }
-
-/* visited link */
-a:visited {
+  a:visited {
   color: white;
 }
-
-/* mouse over link */
-a:hover {
+  a:hover {
   color: white;
 }
-
-/* selected link */
-a:active {
+  a:active {
  color: white;
+}
 }
 
 li.home {
