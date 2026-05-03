@@ -47,9 +47,12 @@ border-bottom: 2px dashed #927ba3;
 }
 
 .up {
+  width: 100%;
+  padding-bottom: 15px;
+  padding-top: 0px;
 }
 
-div.wrapper{
+div.wrapper {
     max-width: -webkit-calc(1000px - (30px * 2));
     max-width: calc(1000px - (30px * 2));
     margin-right: auto;
@@ -100,12 +103,12 @@ section.base {
         float: right;
         border-bottom: #927ba3 2px;
     }
-
 }
 
 figcaption {
   @media all and (min-width: 960px) {
       padding: 4px;
+  }
 }
 
 img {
@@ -145,8 +148,10 @@ nav {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }
 }
 }
+
 
 
 /* unvisited link */
@@ -167,7 +172,6 @@ a:hover {
 /* selected link */
 a:active {
  color: white;
-}
 }
 
 li.home {
