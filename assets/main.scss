@@ -8,16 +8,16 @@ body {
 }
 body {
   a:link{
- color: rgb(9, 7, 65)
+ color: rgb(9, 7, 65);
   }
   a:visited {
   color: rgb(73, 0, 46);
   }
   a:hover {
-  color: rgb(33, 30, 115)
+  color: rgb(33, 30, 115);
   }
   a:active {
- color: rgb(9, 7, 65)
+ color: rgb(9, 7, 65);
   }
 }
 
@@ -37,7 +37,7 @@ header.site-header {
 
 div.nav {
   @media all and (max-width: 600px) {
-    display: flex
+    display: flex;
     flex-wrap: wrap;
   } 
   .site-title {
