@@ -12,7 +12,7 @@ There are various branches of feminism, all with different grounding philosophie
 {% for ideology in site.ideologies %}
 <div class="container">
 <div class="content-left">
-<h3><a href="/lis786-starterkit/{{ideology.permalink}}">{{ ideology.title }}</a></h3>
+<h3 class="hi up"><a href="/lis786-starterkit/{{ideology.permalink}}">{{ ideology.title }}</a></h3>
 <p>{{ ideology.snip }}</p>
 <p>{{ ideology.content }}</p>
 </div>

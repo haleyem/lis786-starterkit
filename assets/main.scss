@@ -30,6 +30,9 @@ header.site-header {
     border-bottom: 2px solid #927ba3;
     display: flex;
 }
+nav {
+  display: flex;
+}
 header.site-header {
   @media all and (max-width: 600px) {
     flex-direction: column;
@@ -37,10 +40,13 @@ header.site-header {
   }
 }
 
-
+// hi and up both h3, up lifts header above rest of container
 
 .hi {
 border-bottom: 2px dashed #927ba3;
+}
+
+.up {
 }
 
 div.wrapper{
@@ -92,8 +98,14 @@ section.base {
     @media all and (min-width: 960px) {
         width: 33%;
         float: right;
+        border-bottom: #927ba3 2px;
     }
 
+}
+
+figcaption {
+  @media all and (min-width: 960px) {
+      padding: 4px;
 }
 
 img {
