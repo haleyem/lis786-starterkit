@@ -5,6 +5,7 @@ layout: base
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+  <!-- this is to take the date out of the posts. why would a date be there? why did it suddenly appear?
     <div class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {% assign pdate = page.date | date_to_xmlschema %}
@@ -30,6 +31,7 @@ layout: base
       </div>
       {%- endif %}
     </div>
+    -->
   </header>
 <div class="container">
   <div class="post-content e-content" itemprop="articleBody">
