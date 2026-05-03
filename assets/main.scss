@@ -27,18 +27,18 @@ body {
 
 header.site-header {
     background-color: #54306e;
-    color: rgb(230, 223, 245);
     border-bottom: 2px solid #927ba3;
     display: flex;
 }
 header.site-header {
   @media all and (max-width: 600px) {
     flex-direction: column;
+
   }
 }
 
 header.post-header {
-  padding-top: 15 px;
+  padding-top: 25 px;
 }
 
 .site-nav {
@@ -66,6 +66,8 @@ div.base {
   border: #927ba3 3px;
   border-radius: 12px;
   background-color: #F8F2FC;
+  padding-top: 25px;
+  padding-bottom: 0px;
 }
 
 .clearfix::after {
