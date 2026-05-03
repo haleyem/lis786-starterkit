@@ -21,8 +21,10 @@ body {
   }
 }
 
-.site-title, .site-title:visited {
+.site-title {
   color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header.site-header {
@@ -33,9 +35,11 @@ header.site-header {
 }
 nav {
   display: flex;
+  flex-wrap: wrap;
 }
 header.site-header {
   @media all and (max-width: 600px) {
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
