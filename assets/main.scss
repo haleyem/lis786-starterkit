@@ -29,6 +29,16 @@ header.site-header {
     background-color: #54306e;
     color: rgb(230, 223, 245);
     border-bottom: 2px solid #927ba3;
+    display: flex;
+}
+header.site-header {
+  @media all and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+header.post-header {
+  padding-top: 15 px;
 }
 
 .site-nav {
@@ -36,8 +46,6 @@ header.site-header {
     float: right;
     display: block;
     text-align: left;
-    background-color: white;
-    color: black;
   }
 }
 
@@ -55,7 +63,7 @@ div.wrapper{
 }
 
 div.base {
-  border: #927ba3;
+  border: #927ba3 3px;
   border-radius: 12px;
   background-color: #F8F2FC;
 }
