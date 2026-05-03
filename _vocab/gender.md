@@ -1,6 +1,7 @@
 ---
 title: Gender
 layout: post
+permalink: /vocab/gender
 category: foundations
 tags: term 
 ---

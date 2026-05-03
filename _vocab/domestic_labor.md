@@ -1,6 +1,7 @@
 ---
 title: Domestic Labor
 layout: post
+permalink: /vocab/domestic_labor
 category: foundations
 tags: term 
 ---
