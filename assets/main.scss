@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: #F8F2FC;
+    background-color: #eae1ec;
 }
 body {
   a:link{
@@ -52,6 +52,12 @@ div.wrapper{
     margin-left: auto;
     padding-right: 30px;
     padding-left: 30px;
+}
+
+div.base {
+  border: #927ba3;
+  border-radius: 12px;
+  background-color: #F8F2FC;
 }
 
 .clearfix::after {
