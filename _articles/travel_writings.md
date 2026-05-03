@@ -1,5 +1,5 @@
 ---
-title: Obtaining “Sympathetic Understanding”
+title: Obtaining 'Sympathetic Understanding'
 layout: post
 type: Article
 tags: history race 
