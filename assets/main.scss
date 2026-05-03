@@ -5,7 +5,14 @@
 
 body {
     background-color: #eae1ec;
+    display: flex;
 }
+body {
+  @media all and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
 body {
   a:link{
  color: rgb(9, 7, 65);
