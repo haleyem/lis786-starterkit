@@ -1,6 +1,6 @@
 <header class="site-header">
 
-  <div class="wrapper">
+  <div class="wrapper nav">
     {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
     {%- assign page_titles = site.pages | map: 'title' | compact %}
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
