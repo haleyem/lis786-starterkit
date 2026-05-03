@@ -41,7 +41,7 @@ div.nav {
     flex-wrap: wrap;
   } 
   .site-title {
-    order: 1;
+    order: 1; // i don't think this is doing anything
   }
   .site-nav {
    order: 2;
@@ -92,7 +92,10 @@ nav {
     display: flex;
     color: white;
   }
-  ul {
+}
+
+nav ul {
+    @media all and (max-width: 600px) {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
