@@ -29,6 +29,12 @@ header.site-header {
     color: white;
 }
 
+header.site-header {
+  @media all and (max-width: 600px) {  
+    width: fit-content;
+    height: fit-content;
+}
+}
 
 .site-title, .site-title:visited { 
   color: white;
@@ -65,6 +71,7 @@ nav {
     text-decoration: none;
   }
 }
+
 
 
 li.home {
