@@ -49,7 +49,8 @@ div.sidebar {
     position: static;
   }
   ul li a {
-    float: left;
+    float: center;
+    list-style-type: none;
   }
   li a {
     text-align: center;
