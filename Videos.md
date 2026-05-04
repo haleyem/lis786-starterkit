@@ -21,7 +21,7 @@ Khadija Mbowe is a Youtuber who posts video essays on pop culture and modern soc
   
 </a>
 
-<div>
+</div>
 
 {% include youtube.html youtube_id="FPVHgyzMCBU?si=NYup7H6t2bSw1ffK" %}
 
