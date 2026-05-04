@@ -46,11 +46,10 @@ div.sidebar {
   ul {
     width: 100%;
     height: auto;
-    position: relative;
+    position: static;
   }
   ul li a {
     float: left;
-    padding: 15px;
   }
   li a {
     text-align: center;
