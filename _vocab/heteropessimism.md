@@ -6,6 +6,6 @@ category: advanced
 tags: lgbtq term
 ---
 Text...  
-[A video essay on heteropessimism.]("https://haleyem.github.io/lis786-starterkit/videos/#km)
+[A video essay on heteropessimism.](/lis786-starterkit/videos/#km)
 
 
