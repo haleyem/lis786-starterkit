@@ -37,27 +37,20 @@ header.site-header {
 }
 .site-nav {
   @media all and (max-width: 600px) {
-    float: right;
-    text-size-adjust: auto;
+    display: none;
   }
 }
 
 div.sidebar {
-  @media all and (min-width: 600px){
-    display: none;
-  }
-  ul {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  ul li a {
-    float: left;
-    padding: 15px;
-  }
-  li a {
+  @media all and (max-width: 600px) {
+    float: right;
     text-align: center;
-    float: none;
+  }
+}
+
+div.sidebar {
+  @media all and (min-width: 601px) {
+    display: none;
   }
 }
 
