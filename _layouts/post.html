@@ -39,6 +39,7 @@ layout: base
   </div>
   <small>
     {% for tag in page.tags %}
+    {% unless tag == "fave" %}
     <a href="/lis786-starterkit/tags/{{ tag }}">{{ tag }}</a>
     {% endfor %}
   </small>
