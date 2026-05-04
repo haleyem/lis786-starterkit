@@ -35,6 +35,11 @@ header.site-header {
     height: fit-content;
 }
 }
+.site-nav {
+  @media all and (max-width: 600px) {
+    display: none;
+  }
+}
 
 .site-title, .site-title:visited { 
   color: white;
