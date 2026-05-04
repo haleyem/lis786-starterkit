@@ -43,6 +43,12 @@ header.site-header {
 
 div.sidebar {
   @media all and (max-width: 600px) {
+    border: #927ba3 2px;
+    background-color:#F8F2FC;
+    border-radius: 8px;
+    column-count: 2;
+    column-rule-style: none;
+
   ul {
     list-style-type: none;
     width: 100%;
