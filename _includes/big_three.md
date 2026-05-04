@@ -1,1 +1,1 @@
-"[Beyond the ‘big three’: the development of feminist theory into the 1990s](https://www.tandfonline.com/doi/abs/10.1080/09612029500200089)" by Mary Maynard
+"[Beyond the ‘big three’: the development of feminist theory into the 1990s](https://www.tandfonline.com/doi/abs/10.1080/09612029500200089)" by Mary Maynard 
