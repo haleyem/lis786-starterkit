@@ -14,7 +14,6 @@ There are various branches of feminism, all with different grounding philosophie
 <h3 class="hi up"><a href="/lis786-starterkit/{{ideology.permalink}}">{{ ideology.title }}</a></h3>
 <div class="content-left">
 <p>{{ ideology.snip }}</p>
-<p>{{ ideology.content }}</p>
 </div>
 {% if ideology.image %}
 {% unless ideology.image == blank %}
