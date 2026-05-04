@@ -15,11 +15,11 @@ nav-order: 6
 
 #### [Khadija Mbowe](https://www.youtube.com/@KhadijaMbowe/featured)
 Khadija Mbowe is a Youtuber who posts video essays on pop culture and modern social phenomenom with a feminist and anti-racist lense. They use essay topics with mass appeal to explain various ideas in left-leaning political theory.  
-<p id="km">
-
+<div id="km">
+  
 **Suggested video: the gender wars, are’nt yall tired? 🤨heteropessimism unpacked**
-
-</p>
+  
+</div>
 
 </div>
 
