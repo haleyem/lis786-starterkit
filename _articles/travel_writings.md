@@ -1,5 +1,5 @@
 ---
-title: Obtaining 'Sympathetic Understanding'
+title: Gender, Empire, and Representation in the Travel Writings of American Officials’ Wives
 layout: post
 type: Article
 tags: history race 

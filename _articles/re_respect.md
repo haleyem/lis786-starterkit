@@ -1,5 +1,5 @@
 ---
-title: Restructuring Respectability, Gender, and Power
+title: Restructuring Respectability, Gender, and Power: Aida Overton Walker Performs a Black Feminist Resistance
 layout: post
 type: Article
 tags: race 

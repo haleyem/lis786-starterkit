@@ -1,5 +1,5 @@
 ---
-title: The Reproduction of Difference
+title: The Reproduction of Difference: Gender and the Global Division of Labor
 layout: post
 type: Article
 tags: marxist 

@@ -1,5 +1,5 @@
 ---
-title: What's in a Woman?
+title: What's in a Woman? Identity and Community on American Lesbian Lands
 layout: post
 type: Article
 tags: lgbtq radical 

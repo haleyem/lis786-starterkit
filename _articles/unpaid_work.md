@@ -1,5 +1,5 @@
 ---
-title: Unpaid work
+title: Unpaid Work, Capital and Coercion
 layout: post
 type: Article
 tags: marxist 
