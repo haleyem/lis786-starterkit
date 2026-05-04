@@ -9,6 +9,6 @@ imgsource: https://commons.wikimedia.org/wiki/File:Boston_1970_protest_against_t
 tags: marxist fave
 snip: Marxist feminism views women's oppression as a form of labor exploitation and seeks to end all forms of labor exploitation, including labor done by women in the home. Marxist feminists will often refer to gender as a "class", in the same fashion as economic class.
 ---
-{{ snip }}
-
+<small>{{ page.snip }}</small>
+  
 Detailed information. de Beauvoir. Engles, in a way. Angela Davis.
