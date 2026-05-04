@@ -30,7 +30,7 @@ These terms are used across different feminist theories. The nuances of the term
 {% include pressbooks_theory.md %}  
 
 ### Why do people separate Black feminism from feminism by race?  
-Read "[The Revolutionary Practice of Black Feminisms](lis786-starterkit/articles/rev_practice_black_feminism)" for a background on the history of Black feminisim in the USA. 
+Read "[The Revolutionary Practice of Black Feminisms](/lis786-starterkit/articles/rev_practice_black_feminism)" for a background on the history of Black feminisim in the USA. 
 
 {% comment %}
 can i generate everything tagged a certain way here.... hmm... what is feminist theory? should all articles be in the articles collection?
