@@ -2,6 +2,7 @@
 title: Women's Suffrage
 layout: post
 image: /lis786-starterkit/images/votes.png
+imgsource: https://americanhistory.si.edu/collections/object/nmah_1444286
 tags:
     - liberal
     - movements
@@ -12,6 +13,6 @@ Women's suffrage is the right of women to vote in elections. Historically, women
 <div class="img-right" markdown="1">
 <figure class="img-inner">
 <img src="{{ page.image }}" alt="{{ page.imgalt }}" style="width:100%">
-<figcaption>{{ page.imgcaption }}</figcaption>
+<figcaption><a href="{{ imgsource }}">{{ page.imgcaption }}</a></figcaption>
 </figure>
 </div>
